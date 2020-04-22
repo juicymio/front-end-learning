@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2048</title>
+    <link rel="stylesheet" href="css/2048.css">
+</head>
+<body>
+    <div class="header">
+        SCORE:<span id="score_01">0</span>
+    </div>
+
+    <div class="cell_all">
+        <div class="cell" id="c00"></div>
+        <div class="cell" id="c01"></div>
+        <div class="cell" id="c02"></div>
+        <div class="cell" id="c03"></div>
+        <div class="cell" id="c10"></div>
+        <div class="cell" id="c11"></div>
+        <div class="cell" id="c12"></div>
+        <div class="cell" id="c13"></div>
+        <div class="cell" id="c20"></div>
+        <div class="cell" id="c21"></div>
+        <div class="cell" id="c22"></div>
+        <div class="cell" id="c23"></div>
+        <div class="cell" id="c30"></div>
+        <div class="cell" id="c31"></div>
+        <div class="cell" id="c32"></div>
+        <div class="cell" id="c33"></div>
+    </div>
+
+    <div class="gameover" id="gameover">
+        <p class="gameover_p">
+            GAMEOVER! <br>
+            SCORE:<span id="score_02">0</span><br>
+            <a herf="javascript:game.start()">TRY AGAIN!</a>
+        </p>
+    </div>
+
+    <script src="js/2048.js"></script>
+</body>
+</html>
