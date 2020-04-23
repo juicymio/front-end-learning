@@ -144,7 +144,7 @@ var game =
                         this.data[r][c] = this.data[r][next_c];
                         this.data[r][next_c] = 0;
                         isMoved = true;
-                        c --; //还没有合并
+                        c ++; //还没有合并
                     }
                     else if (this.data[r][c] == this.data[r][next_c])
                     {
@@ -183,7 +183,7 @@ var game =
                         this.data[r][c] = this.data[next_r][c];
                         this.data[next_r][c] = 0;
                         isMoved = true;
-                        c --; //还没有合并
+                        r --; //还没有合并
                     }
                     else if (this.data[r][c] == this.data[next_r][c])
                     {
@@ -222,7 +222,7 @@ var game =
                         this.data[r][c] = this.data[next_r][c];
                         this.data[next_r][c] = 0;
                         isMoved = true;
-                        c --; //还没有合并
+                        r ++; //还没有合并
                     }
                     else if (this.data[r][c] == this.data[next_r][c])
                     {
