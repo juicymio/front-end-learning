@@ -1,13 +1,32 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+@font-face
+{
+    font-family: 'AlibabaPuHuiTi';
+    src: url(./sources/Alibaba-PuHuiTi-Regular.ttf) format(truetype);
+}
 a
 {
     text-decoration : none;
 }
-#navfirst
+#nav1
 {
-    background-color:black;
-    height: 48px;
-    width:  100%;
-    margin: 0 0 0 0;
+    background-color: #444444;
+    height: 40px;
+    width: 1500px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    border: 0;
+}
+#nav2
+{
+    background-color: #323232;
+    height: 44px;
+    width: 1500px;
+    margin: 0 0 0 20px;
     padding: 0;
     border: 0;
 }
@@ -15,7 +34,6 @@ ul#games
 {
     color: white;
     list-style: none;
-    position: absolute;
     margin: 0;
     padding: 0;
 }
@@ -31,16 +49,53 @@ ul#games li
 {
     margin-top: 12px;
     margin-left: 300px;
+    margin-right: 145px;
+}
+#M_head
+{
+    margin-right: 145px;
+}
+h1
+{
+    margin-top: 10px;
+    text-align: center;
 }
 .title
 {
     text-align: center;
+    font: 50px AlibabaPuHuiTi;
 }
 .sub
 {
     text-align: center;
+    font: 25px AlibabaPuHuiTi;
 }
 .price
 {
     text-align:center;
+}
+.btn
+{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    position: relative;
+    left: 50%;
+    margin-left: -25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: blue;
+}
+#content
+{
+    margin-top: 40px;
+    margin-left: 170px;
+    width: 1200px;
+    background-color: #ffffff;
+}
+body
+{
+    background-color: #fafafa;
 }
