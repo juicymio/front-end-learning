@@ -1,0 +1,52 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    width: 1600px;
+    background: url(../img/bg.png) repeat-x;
+
+}
+.w
+{
+    width: 940px;
+    margin: 0 auto;
+}
+.logo
+{
+    margin-left: 15px;
+}
+.header
+{
+    padding-top: 37px;
+    padding-bottom: 46px;
+}
+.nav
+{
+    float: right;
+    margin-top: 22px;
+}
+.nav ul
+{
+    list-style: none;
+}
+.nav li
+{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: #d6d6d6 1px dotted;
+}
+.nav a
+{
+    color: #666;
+    text-decoration: none;
+    font: bold 14px Georgia;
+}
+.nav p
+{
+    color: #b7b7b7;
+    font: 11px Tahoma;
+}
