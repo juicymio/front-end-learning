@@ -7,7 +7,6 @@ body
 {
     width: 1600px;
     background: url(../img/bg.png) repeat-x;
-
 }
 .w
 {
@@ -17,11 +16,11 @@ body
 .logo
 {
     margin-left: 15px;
+    margin-bottom: 46px;
 }
 .header
 {
     padding-top: 37px;
-    padding-bottom: 46px;
 }
 .nav
 {
@@ -49,4 +48,28 @@ body
 {
     color: #b7b7b7;
     font: 11px Tahoma;
+}
+.banner
+{
+    height: 355px;
+    background: url(../img/shadow.png) no-repeat bottom center;
+    position: relative;
+}
+.pointerDiv
+{
+    position: absolute;
+    top: 314px;
+    left: 15px;
+}
+.pointerDiv a
+{
+    margin-left: 4px;
+    float: left;
+    height: 17px;
+    width: 17px;
+    background: url(../img/pointer.png) no-repeat;
+}
+.pointerDiv .active, .pointerDiv a:hover
+{
+    background: url(../img/pointer_.png) no-repeat;
 }
