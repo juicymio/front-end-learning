@@ -8,6 +8,13 @@ body
     width: 1600px;
     background: url(../img/bg.png) repeat-x;
 }
+.clearfix:before,
+.clearfix:after /*高度塌陷*/
+{
+    content: "";
+    display: table;
+    clear: both;
+}
 .w
 {
     width: 940px;
@@ -72,4 +79,66 @@ body
 .pointerDiv .active, .pointerDiv a:hover
 {
     background: url(../img/pointer_.png) no-repeat;
+}
+
+.content h1
+{
+    text-align: center;
+    font: bold 24px Georgia;
+    padding: 6px 0 20px 0;
+    background: url(../img/break.png) bottom center no-repeat;
+}
+.column
+{
+    width: 300px;
+    float: left;
+}
+#c2
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content .column h2
+{
+    color: #117191;
+    font: 21px Georgia;
+}
+
+.content .column .subtitle
+{
+    color: #8c8c8c;
+    font: 12px Helvetica;
+}
+
+.imgcontainer
+{   
+    width: 290px;
+    height: 192px;
+    background: url(../img/img-bg.png) no-repeat;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 12px;
+}
+.column .text
+{
+    height: 92px;
+    color: #3e3e3e;
+    font: 13px Helvetica;
+}
+.btn
+{
+    width: 163px;
+    height: 40px;
+    margin-bottom: 35px;
+    display: block;
+    font: 12px/40px Helvetica;
+    text-indent: 1em;
+    text-decoration: none;
+    color: #016999;
+    background: url(../img/button.png) no-repeat;
+}
+#contact .column
+{
+    height: 100px;
 }
